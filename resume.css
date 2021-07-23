@@ -1,0 +1,84 @@
+#header {
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#name-container-email-cell-address-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 1rem;
+}
+
+#name-container {
+}
+
+#email-cell-address-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio-github-linkedin-container {
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.name {
+  color: rgb(238, 238, 255);
+  font-size: 25px;
+  text-align: center;
+}
+
+.portfolio-github-linkedin {
+  color: rgb(238, 238, 255);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.email-cell-address {
+  color: rgb(238, 238, 255);
+
+  font-size: 13px;
+  padding: 5px;
+}
+
+.top-link {
+  font-size: 12px;
+  color: rgb(132, 132, 245);
+}
+
+#skill-container{
+  border-right: 3px solid red;
+  width: 5%;
+
+}
+
+#skill-container-languages-frameworks-tools-libraries-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.app-title-container{
+  display: flex;
+}
+
+#project-container{
+  border-right: 3px solid rgb(17, 0, 255);
+  width: 5%;
+}
+
+#project-container-app-title-container{
+  display: flex;
+}
+
